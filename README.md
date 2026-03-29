@@ -16,46 +16,61 @@ A smart, interactive (Command Line Interface) tool designed to calculate the tot
 ## 🚀 How to Run the Program
 
 ### 🪟 Windows Terminal (CMD or PowerShell)
-1.  **Open your terminal** and navigate to your project folder:
+
+1. **Open your terminal** and navigate to your project folder:
+
     ```powershell
     cd C:\Users\YourName\Documents\your-project-folder
     ```
-2.  **Run the script:**
+
+2. **Run the script:**
+
     ```powershell
     python estimator.py
     ```
+
     *(Note: If `python` isn't recognized, try the command `py estimator.py`)*
 
 ---
 
 ### 🐧 Ubuntu / Linux Desktop (Step-by-Step)
+
 Ubuntu require a **Virtual Environment (.venv)** to run Python code safely without interfering with system files.
 
-1.  **Open your Terminal** (`Ctrl+Alt+T`).
-2.  **Navigate to the folder** containing your `estimator.py` file:
+1. **Open your Terminal** (`Ctrl+Alt+T`).
+2. **Navigate to the folder** containing your `estimator.py` file:
+
     ```bash
     cd ~/Documents/your-project-folder
     ```
+
     *💡 Pro Tip: You can also open your file manager, right-click inside your project folder, and select **"Open in Terminal"** to jump straight to this step.*
 
-3.  **Create a Virtual Environment:**
+3. **Create a Virtual Environment:**
     This creates a protected "bubble" for your code to run in:
+
     ```bash
     python3 -m venv venv
     ```
-4.  **Activate the Environment:**
+
+4. **Activate the Environment:**
     You must do this every time you open a new terminal to run the script:
+
     ```bash
     source venv/bin/activate
     ```
+
     *You will now see `(.venv)` appear at the start of your command line prompt.*
 
-5.  **Run your script:**
+5. **Run your script:**
+
     ```bash
     python3 estimator.py
     ```
-6.  **Exit the Environment:**
+
+6. **Exit the Environment:**
     Once you are finished, simply type:
+
     ```bash
     deactivate
     ```
@@ -85,7 +100,8 @@ Your total is £202.50
 * **String Interpolation:** Clean output using Python f-strings.
 * **Environment Isolation:** Best-practice usage of `.venv` on Linux systems.
 
-___
-## ⚠️ Disclaimer 
+---
+
+## ⚠️ Disclaimer
 
 This is provided "as-is" without any warranty of any kind. I am not responsible for any issues, data loss, or other problems that may arise from using this project. (code-related or otherwise) **Use it at your own risk**.
