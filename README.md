@@ -50,14 +50,14 @@ Ubuntu require a **Virtual Environment (.venv)** to run Python code safely witho
     This creates a protected "bubble" for your code to run in:
 
     ```bash
-    python3 -m venv venv
+    python3 -m venv .venv
     ```
 
 4. **Activate the Environment:**
     You must do this every time you open a new terminal to run the script:
 
     ```bash
-    source venv/bin/activate
+    source .venv/bin/activate
     ```
 
     *You will now see `(.venv)` appear at the start of your command line prompt.*
