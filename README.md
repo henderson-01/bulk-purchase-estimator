@@ -29,7 +29,8 @@ A smart, interactive (Command Line Interface) tool designed to calculate the tot
     python estimator.py
     ```
 
-    *(Note: If `python` isn't recognized, try the command `py estimator.py`)*
+    > [!NOTE]
+    > If `python` isn't recognized, try the command `py estimator.py`
 
 ---
 
@@ -44,7 +45,8 @@ Ubuntu require a **Virtual Environment (.venv)** to run Python code safely witho
     cd ~/Documents/your-project-folder
     ```
 
-    *💡 Pro Tip: You can also open your file manager, right-click inside your project folder, and select **"Open in Terminal"** to jump straight to this step.*
+    > [!TIP]
+    > 💡 You can also open your file manager, right-click inside your project folder, and select **"Open in Terminal"** to jump straight to this step.*
 
 - **Create a Virtual Environment:**
     This creates a protected "bubble" for your code to run in:
@@ -60,7 +62,8 @@ Ubuntu require a **Virtual Environment (.venv)** to run Python code safely witho
     source .venv/bin/activate
     ```
 
-    *You will now see `(.venv)` appear at the start of your command line prompt.*
+    > [!NOTE]
+    > You will now see `(.venv)` appear at the start of your command line prompt.
 
 - **Run your script:**
 
@@ -104,4 +107,5 @@ Your total is £202.50
 
 ## ⚠️ Disclaimer
 
-This is provided "as-is" without any warranty of any kind. I am not responsible for any issues, data loss, or other problems that may arise from using this project. (code-related or otherwise) **Use it at your own risk**.
+> [!CAUTION]
+> This is provided "as-is" without any warranty of any kind. I am not responsible for any issues, data loss, or other problems that may arise from using this project. (code-related or otherwise) **Use it at your own risk**.
