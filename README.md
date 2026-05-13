@@ -46,7 +46,7 @@ Ubuntu require a **Virtual Environment (.venv)** to run Python code safely witho
     ```
 
 > [!TIP]
-> 💡 You can also open your file manager, right-click inside your project folder, and select **"Open in Terminal"** to jump straight to this step.*
+> 💡 You can also open your file manager, right-click inside your project folder, and select **"Open in Terminal"** to jump straight to this step.
 
 - **Create a Virtual Environment:**
     This creates a protected "bubble" for your code to run in:
