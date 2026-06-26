@@ -38,6 +38,9 @@ htmlcov/
 .markdownlint_cache/
 .markdownlint-cli2/
 
+# --- Ignore files made by the continue extension ---
+.continue/
+
 # --- System / OS ---
 .DS_Store
 .directory
